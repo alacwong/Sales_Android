@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titleHeight"
+    android:orientation="vertical"
+    android:gravity="top|start|center_horizontal"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="@dimen/paddingGeneral"
+      android:text="@string/loginTextId"
+      android:textSize="@dimen/subtitleFontSize" />
+
+    <EditText
+      android:id="@+id/userName"
+      android:layout_width="@dimen/inputWidth"
+      android:layout_height="@dimen/inputHeight"
+      android:inputType="phone" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/loginTextPassword"
+      android:textSize="@dimen/subtitleFontSize" />
+
+    <EditText
+      android:id="@+id/password"
+        android:layout_width="@dimen/inputWidth"
+        android:layout_height="@dimen/inputHeight"
+        android:inputType="textPassword" />
+
+    <TextView
+      android:id="@+id/errorLogin"
+      android:layout_width="400sp"
+      android:textSize="20sp"
+      android:layout_height="60sp" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/submitLogin"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="@string/submit"
+        android:textColor="@color/colorWhite" />
+
+  </LinearLayout>
+</LinearLayout>

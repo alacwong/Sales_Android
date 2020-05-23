@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_horizontal">
+
+  <TextView
+    android:id="@+id/accountMode"
+    android:layout_width="@dimen/buttonWidth"
+    android:layout_height="@dimen/buttonHeight"
+    android:text="@string/selectAccountsButton"
+    android:textSize="@dimen/subtitleFontSize" />
+
+  <Spinner
+      android:id="@+id/accountOption"
+      android:layout_width="@dimen/buttonWidth"
+      android:layout_height="@dimen/buttonHeight"
+      android:entries="@array/accountOptions"
+      android:spinnerMode="dropdown" />
+
+
+  <Button
+    android:id="@+id/showAccount"
+    android:layout_width="@dimen/buttonWidth"
+    android:layout_height="@dimen/buttonHeight"
+    android:text="@string/showAccountsButton" />
+
+  <TextView
+    android:layout_width="@dimen/buttonWidth"
+    android:layout_height="@dimen/buttonHeight"
+    android:text="@string/getCustomerId"
+    android:textSize="@dimen/subtitleFontSize" />
+
+  <Spinner
+    android:id="@+id/customerAccounts"
+    android:layout_width="@dimen/buttonWidth"
+    android:layout_height="@dimen/buttonHeight"
+    android:spinnerMode="dropdown" />
+
+  <ListView
+    android:id="@+id/accountIds"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  </ListView>
+
+</LinearLayout>

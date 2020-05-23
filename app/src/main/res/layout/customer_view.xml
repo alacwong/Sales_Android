@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="@dimen/paddingGeneral"
+  android:paddingRight="@dimen/paddingGeneral">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/textHeight"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/customerHeader"
+      android:textSize="@dimen/subtitleFontSize" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral">
+
+    <Button
+      android:id="@+id/viewCart"
+      android:layout_width="@dimen/customerButtonWidth"
+      android:layout_height="@dimen/customerButtonHeight"
+      android:background="@drawable/viewcart"
+      android:gravity="center_vertical|end"
+      android:text="@string/customerTaskListCart" />
+
+    <Button
+      android:id="@+id/addItems"
+      android:layout_width="@dimen/customerButtonWidth"
+      android:layout_height="@dimen/customerButtonHeight"
+      android:background="@drawable/additem"
+      android:gravity="center_vertical|end"
+      android:text="@string/customerTaskAddItems" />
+
+    <Button
+      android:id="@+id/removeItems"
+      android:layout_width="@dimen/customerButtonWidth"
+      android:layout_height="@dimen/customerButtonHeight"
+      android:background="@drawable/removeitem"
+      android:gravity="center_vertical|end"
+      android:text="@string/customerTaskRemoveItems" />
+
+    <Button
+      android:id="@+id/totalPrice"
+      android:layout_width="@dimen/customerButtonWidth"
+      android:layout_height="@dimen/customerButtonHeight"
+      android:background="@drawable/totalprice"
+      android:gravity="center_vertical|end"
+      android:text="@string/customerTaskTotalCart" />
+
+    <Button
+      android:id="@+id/checkout"
+      android:layout_width="@dimen/customerButtonWidth"
+      android:layout_height="@dimen/customerButtonHeight"
+      android:background="@drawable/checkoutitem"
+      android:gravity="center_vertical|end"
+      android:text="@string/customerTaskCheckout" />
+
+    <Button
+      android:id="@+id/refund"
+      android:layout_width="@dimen/customerButtonWidth"
+      android:layout_height="@dimen/customerButtonHeight"
+      android:background="@drawable/refunditem"
+      android:gravity="center_vertical|end"
+      android:text="@string/customerTaskRefund" />
+
+  </LinearLayout>
+
+</LinearLayout>
+
+

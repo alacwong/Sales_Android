@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="@dimen/paddingGeneral"
+  android:paddingRight="@dimen/paddingGeneral"
+  android:id="@+id/employeeView">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/textHeight"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral">
+
+    <TextView
+      android:id="@+id/employeeHeadMessage"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/employeeHeader"
+      android:textSize="@dimen/subtitleFontSize" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral">
+
+    <Button
+        android:id="@+id/employeeAuthenticateNewEmployee"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/employeeTaskAuthenticateEmployee" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/employeeCreateNewUser"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/employeeTaskNewUser" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/employeeCreateNewAccount"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/employeeTaskNewAccount" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/employeeCreateNewEmployee"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/employeeTaskNewEmployee" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/employeeRestockInventory"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/employeeTaskRestockInventory" />
+
+  </LinearLayout>
+
+</LinearLayout>

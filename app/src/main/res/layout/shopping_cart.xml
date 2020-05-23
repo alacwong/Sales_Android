@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical" android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="center|center_horizontal"
+        android:text="My Cart"
+        android:textSize="30sp" />
+
+  <TextView
+      android:id="@+id/shoppingCartContentTextview"
+      android:layout_width="match_parent"
+      android:layout_height="377dp"
+      android:gravity="center"
+      android:textSize="24dp" />
+
+  <Button
+      android:id="@+id/checkout"
+      android:layout_width="200sp"
+      android:layout_height="69dp"
+      android:layout_gravity="center"
+      android:background="@drawable/blue"
+      android:gravity="center"
+      android:text="Check Out" />
+
+  <Button
+      android:id="@+id/saveCart"
+      android:layout_width="200sp"
+      android:layout_height="69dp"
+      android:layout_gravity="center"
+      android:gravity="center"
+      android:text="Save Cart" />
+
+</LinearLayout>

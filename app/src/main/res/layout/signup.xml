@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="@dimen/paddingGeneral"
+  android:paddingRight="@dimen/paddingGeneral">
+
+  <TextView
+    android:id="@+id/signUpNameHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/signUpUsername"
+    android:textSize="@dimen/subtitleFontSize" />
+
+  <EditText
+    android:layout_width="@dimen/inputWidth"
+    android:layout_height="@dimen/inputHeight"
+    android:inputType="text"
+    android:labelFor="@id/signUpNameHeader"
+    android:importantForAutofill="no" />
+
+  <TextView
+    android:id="@+id/signUpAddressHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/signUpAddress"
+    android:textSize="@dimen/subtitleFontSize" />
+
+  <EditText
+    android:layout_width="@dimen/inputWidth"
+    android:layout_height="@dimen/inputHeight"
+    android:inputType="text"
+    android:labelFor="@id/signUpAddressHeader"
+    android:importantForAutofill="no" />
+
+  <TextView
+    android:id="@+id/signUpAgeHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/signUpAge"
+    android:textSize="@dimen/subtitleFontSize" />
+
+  <EditText
+    android:layout_width="@dimen/inputWidth"
+    android:layout_height="@dimen/inputHeight"
+    android:inputType="phone"
+    android:labelFor="@id/signUpAgeHeader"
+    android:importantForAutofill="no" />
+
+  <TextView
+    android:id="@+id/signUpPasswordHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/signUpPassword"
+    android:textSize="@dimen/subtitleFontSize" />
+
+  <EditText
+    android:layout_width="@dimen/inputWidth"
+    android:layout_height="@dimen/inputHeight"
+    android:inputType="textPassword"
+    android:labelFor="@id/signUpPasswordHeader"
+    android:importantForAutofill="no" />
+
+  <TextView
+    android:id="@+id/signUpPasswordConfirmHeader"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/signUpPassword"
+    android:textSize="@dimen/subtitleFontSize" />
+
+  <EditText
+    android:layout_width="@dimen/inputWidth"
+    android:layout_height="@dimen/inputHeight"
+    android:inputType="textPassword"
+    android:labelFor="@id/signUpPasswordHeader"
+    android:importantForAutofill="no"
+    android:id="@id/signUpPasswordConfirmHeader"/>
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/termsOfService"
+    android:textSize="@dimen/subtitleFontSize" />
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:layout_gravity="center"
+        android:background="@drawable/blue"
+        android:gravity="center|center_vertical"
+        android:text="@string/submit" />
+
+  </LinearLayout>
+</LinearLayout>

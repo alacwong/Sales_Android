@@ -1,0 +1,85 @@
+<resources>
+  <string name="app_name">SalesApplication Android</string>
+
+  <string name="title">"App Name"</string>
+  <string name="titleButton">"Initialize"</string>
+  <string name="titleButtonLogin">"Login"</string>
+  <string name="titleButtonSignUp">"Sign Up"</string>
+
+  <string name="loginText">"Log in:"</string>
+  <string name="loginTextId">"Enter Your ID:"</string>
+  <string name="loginTextPassword">"Enter Your Password:"</string>
+
+  <string name="signUpUsername">"Enter your name:"</string>
+  <string name="signUpAddress">"Enter your address:"</string>
+  <string name="signUpAge">Enter your age:"</string>
+  <string name="signUpPassword">"Enter your password:"</string>
+  <string name="signUpPasswordConfirm">"Confirm your password:"</string>
+  <string name="termsOfService">"By submitting, you agree to our Terms of Service."
+  </string>
+  <string name="submit">"Submit"</string>
+  <string name="cancel">"Cancel"</string>
+
+  <string name="initHeader">"Initialize"</string>
+  <string name="initSuccess">"Initialization Successful"</string>
+  <string name="initFailure">"Initialization Failed, Try Again Later"</string>
+
+  <string name="adminHeader">"Welcome Admin, Select a Task:"</string>
+  <string name="adminTaskPromote">"Promote Employee"</string>
+  <string name="activeAccountsHeader">"List of Active Accounts."</string>
+  <string name="adminTaskHistory">"View Sales History"</string>
+  <string name="salesHistory">"History of Sales."</string>
+  <string name="adminTaskGetHistoricAccounts">"Historic Accounts"</string>
+  <string name="accountView">"Get Account View"</string>
+  <string name="getCustomerId">"Enter customer ID"</string>
+  <string name="showAccountsButton">"Show accounts"</string>
+  <string name="selectAccountsButton">"Select accounts to view""</string>
+  <string name="adminTaskGetActiveAccounts">"Active Accounts"</string>
+  <string name="activeAccounts">"List of Active Accounts."</string>
+  <string name="adminTaskGetAllAccounts">"All Accounts"</string>
+  <string name="allAccounts">"List of All Accounts."</string>
+  <string name="getEmployeeView">"Get Employee View"</string>
+  <string name="getCustomerView">"Get Customer View"</string>
+
+
+  <string name="promoteEmployeeHeader">"Select an Employee to promote to Administrator."</string>
+  <string name="confirmPromoteEmployee">"Are you sure you want to promote this employee?"</string>
+  <string name="promoteEmployeeSuccess">"Successfully promoted."</string>
+  <string name="promoteEmployeeFail">"Failed to promote."</string>
+
+  <string name="employeeHeader">"Welcome Employee, Select a Task:"</string>
+  <string name="employeeTaskAuthenticateEmployee">"Authenticate New Employee"</string>
+  <string name="employeeTaskNewUser">"Create New User"</string>
+  <string name="employeeTaskNewAccount">"Create New Account"</string>
+  <string name="employeeTaskNewEmployee">"Create New Employee"</string>
+  <string name="employeeTaskRestockInventory">"Restock Inventory"</string>
+
+  <string name="customerHeader">"Welcome Valued Customer, select a task:"</string>
+  <string name="customerTaskListCart">"View Shopping Cart"</string>
+  <string name="customerTaskAddItems">"Add Items"</string>
+  <string name="customerTaskTotalCart">"View Total Price"</string>
+  <string name="customerTaskRemoveItems">"Remove Items"</string>
+  <string name="customerTaskCheckout">"Checkout"</string>
+  <string name="customerTaskRefund">"Refund an Item"</string>
+
+  <string-array name="dummyStrings">
+    <item>employeeOne</item>
+    <item>employeeTwo</item>
+    <item>employeeThree</item>
+    <item>employeeFour</item>
+  </string-array>
+
+  <string-array name="accountOptions">
+    <item>All Accounts</item>
+    <item>Active Accounts</item>
+    <item>Inactive Accounts</item>
+  </string-array>
+
+  <string-array name="accountAvailable">
+    <item>Account 1</item>
+    <item>Account 2</item>
+  </string-array>
+
+  <string name="exit">"Return to Menu"</string>
+
+</resources>

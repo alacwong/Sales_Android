@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="titleFontSize">50sp</dimen>
+  <dimen name="headerFontSize">40sp</dimen>
+  <dimen name="subtitleFontSize">20sp</dimen>
+  <dimen name="titleHeight">400sp</dimen>
+  <dimen name="titleWidth">400sp</dimen>
+  <dimen name="titleImageHeight">200sp</dimen>
+  <dimen name="titleImageWidth">200sp</dimen>
+  <dimen name="layoutLength">200sp</dimen>
+
+  <dimen name="spinnerHeight">20sp</dimen>
+  <dimen name="spinnerWidth">200sp</dimen>
+
+  <dimen name="inputWidth">400sp</dimen>
+  <dimen name="inputHeight">60sp</dimen>
+  <dimen name="textWidth">200sp</dimen>
+  <dimen name="textHeight">100sp</dimen>
+  <dimen name="buttonWidth">200sp</dimen>
+  <dimen name="buttonHeight">60sp</dimen>
+  <dimen name="buttonCorner">2dp</dimen>
+
+  <dimen name="customerButtonWidth">230sp</dimen>
+  <dimen name="customerButtonHeight">80sp</dimen>
+
+  <dimen name="paddingGeneral">10sp</dimen>
+  <dimen name="paddingTitle">40sp</dimen>
+</resources>

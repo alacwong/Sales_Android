@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:paddingLeft="@dimen/paddingGeneral"
+  android:paddingRight="@dimen/paddingGeneral"
+  android:gravity="center_horizontal"
+  tools:context=".views.MainActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titleHeight"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/paddingTitle"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral"
+    android:gravity="center_horizontal|top"
+    tools:context=".views.MainActivity">
+
+    <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/paddingGeneral"
+      android:text="@string/title"
+      android:background="@drawable/rounded_text_view"
+      android:textColor="@color/colorDarkBack"
+      android:gravity="center_horizontal"
+      android:textSize="@dimen/titleFontSize" />
+
+    <ImageView
+      android:layout_width="@dimen/titleImageWidth"
+      android:layout_height="@dimen/titleImageHeight"
+      android:src="@mipmap/logo_foreground"
+      />
+
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/titleHeight"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral"
+    android:gravity="top|center_horizontal"
+    tools:context=".views.MainActivity">
+
+    <Button
+        android:id="@+id/loginPageButton"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@color/colorLightPrimaryDark"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="@string/titleButtonLogin"
+        android:textColor="@color/colorWhite" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/initializeButton"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/titleButton" />
+
+  </LinearLayout>
+
+</LinearLayout>

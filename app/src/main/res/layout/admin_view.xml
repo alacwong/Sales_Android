@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center_horizontal"
+  android:paddingLeft="@dimen/paddingGeneral"
+  android:paddingRight="@dimen/paddingGeneral">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/inputHeight"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral">
+
+    <TextView
+      android:id="@+id/welcomeAdmin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/adminHeader"
+      android:textSize="@dimen/subtitleFontSize" />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="@dimen/paddingGeneral"
+    android:paddingRight="@dimen/paddingGeneral">
+
+    <Button
+        android:id="@+id/promoteEmployeePageButton"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/adminTaskPromote" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/salesHistoryButton"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/adminTaskHistory" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/accountsButton"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/accountView" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activeAccountsButton"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/adminTaskGetActiveAccounts" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/getAllAccounts"
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:background="@drawable/blue"
+        android:text="@string/adminTaskGetAllAccounts" />
+
+  </LinearLayout>
+
+</LinearLayout>

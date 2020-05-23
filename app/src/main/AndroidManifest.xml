@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.b07.salesandroid">
+
+  <application
+    android:allowBackup="true"
+    android:icon="@mipmap/logo_foreground"
+    android:label="@string/app_name"
+    android:roundIcon="@mipmap/logo_round"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".views.InitializeView"/>
+    <activity android:name=".views.EmployeeView" />
+    <activity android:name=".views.AdminView" />
+    <activity android:name=".views.PromoteEmployeeView" />
+    <activity android:name=".views.RestockInventoryView" />
+    <activity android:name=".views.ActiveAccountsView" />
+    <activity android:name=".views.ShoppingCartView" />
+    <activity android:name=".views.AccountView" />
+    <activity android:name=".views.AccountChoose" />
+    <activity android:name=".controllers.TransitionButtonController" />
+
+    <activity android:name=".views.CustomerView" />
+    <activity android:name=".views.SignUpView" />
+    <activity android:name=".views.LoginView" />
+    <activity android:name=".views.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+
+</manifest>

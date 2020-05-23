@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:gravity="center_horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" >
+
+  <TextView
+    android:id="@+id/promoteEmployeeText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/promoteEmployeeHeader"
+    android:textSize="@dimen/subtitleFontSize" />
+  
+  <Spinner
+    android:id="@+id/employeeListSpinner"
+    android:layout_width="@dimen/spinnerWidth"
+    android:layout_height="@dimen/spinnerHeight" />
+
+  <Button
+      android:id="@+id/promoteEmployee"
+      android:layout_width="@dimen/buttonWidth"
+      android:layout_height="@dimen/buttonHeight"
+      android:background="@drawable/blue"
+      android:foreground="?attr/selectableItemBackground"
+      android:gravity="center"
+      android:text="@string/adminTaskPromote"
+      android:textColor="#000000" />
+
+
+</LinearLayout>
